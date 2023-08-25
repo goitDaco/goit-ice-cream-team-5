@@ -1,0 +1,197 @@
+/* producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto 
+producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto 
+producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto producto  */
+
+
+/* contenedores contenedores contenedores contenedores contenedores  */
+
+body{
+height: 5000px;
+
+
+}
+.mover {
+    height: 2000px;
+    border: solid 1px red;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.container-gen {
+    border: 1px solid red;
+    width: 400px;
+    height: 1800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.cont {
+    position: relative;
+    top: 100px;
+    width: 224px;
+    height: 473px;
+}
+
+.container-img-1 {
+
+    width: 224px;
+    height: 473px;
+    background: #FFB8CA;
+    border-radius: 24px;
+}
+
+.container-img-2 {
+    top: 120px;
+    position: absolute;
+    width: 224px;
+    height: 473px;
+    background: #F0D1A5;
+    border-radius: 24px;
+}
+
+.container-img-3 {
+    top: 240px;
+    position: relative;
+    width: 224px;
+    height: 473px;
+    background: #C2E297;
+    border-radius: 24px;
+}
+
+/* 
+edicion de texto edicion de texto edicion de texto  */
+.subtitle {
+    color: #FFA5BA;
+    text-align: center;
+    font-family: Titan One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.product {
+    color: #D41443;
+    text-align: center;
+    font-family: Titan One;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.text {
+    /* position: relative;
+    bottom: 100px; */
+    color: #FFF;
+    text-align: center;
+    font-family: Titan One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.images-helado {
+    position: relative;
+    bottom: 120px;
+}
+
+
+.text-1 {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 176%;
+    /* 24.64px */
+    letter-spacing: 0.56px;
+}
+
+.separacion {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.posi-text {
+    position: relative;
+    bottom: 100px;
+    /* border: solid 1px red; */
+}
+
+.modal-fal {
+    display: block;
+    margin: auto;
+}
+
+/* seccion de vectores seccion de vectores seccion de vectores  */
+
+.vector1 {
+    display: block;
+    margin: auto;
+}
+
+
+/* 
+segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte 
+segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte 
+segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte 
+segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte segunda parte  */
+
+.container-2 {
+    
+    border: solid 1px red;
+    width: 400px;
+    height: 1800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+    @media screen and (min-width: 1200px;){
+        flex-direction: row;
+    }
+    @media screen {
+        flex-direction: row;
+    }
+}
+.tarjeta {
+    position: ;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
+    width: 368px;
+    height: 538px;
+}
+.button-but {
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.sub-tarjeta{
+    position: relative;
+    top: 32px;
+    left: 40px;
+}

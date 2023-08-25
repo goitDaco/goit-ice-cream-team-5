@@ -1,0 +1,606 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+.container_subtitle {
+  color: #FFA5BA;
+  font-family: Titan One;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.container_product {
+  color: #D41443;
+  font-family: Titan One;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.cont_img-1, .cont_img-2, .cont_img-3 {
+  width: 224px;
+  height: 473px;
+  background: #FFB8CA;
+  border-radius: 24px;
+}
+
+.cont_img-2, .cont_img-3 {
+  width: 224px;
+  height: 473px;
+  background: #F0D1A5;
+  border-radius: 24px;
+}
+
+.cont_img-3 {
+  width: 224px;
+  height: 473px;
+  background: #C2E297;
+  border-radius: 24px;
+}
+
+.text {
+  /* position: relative;
+  bottom: 100px; */
+  color: #FFF;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.cont-img_3--text-1 {
+  color: #FFF;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 176%;
+  /* 24.64px */
+  letter-spacing: 0.56px;
+}
+
+@media screen and (max-width: 320px) {
+  .containerproducts {
+    height: 2027px;
+    width: 320px;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .containerproducts {
+    height: 794px;
+    width: 768px;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .containerproducts {
+    height: 992px;
+    width: 1200px;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .containerschedules {
+    border: 2px solid red;
+    height: 1308px;
+    width: 320px;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .containerschedules {
+    border: 2px solid green;
+    height: 588px;
+    width: 768px;
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .containerschedules {
+    border: 2px solid blue;
+    height: 598px;
+    width: 1200px;
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .containerfooter {
+    border: 2px solid red;
+    height: 508px;
+    width: 320px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .containerfooter {
+    border: 2px solid green;
+    height: 345px;
+    width: 768px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .containerfooter {
+    border: 2px solid blue;
+    height: 378px;
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .containerheader {
+    border: 2px solid red;
+    height: 502px;
+    width: 320px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .containerheader {
+    border: 2px solid green;
+    height: 416px;
+    width: 768px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .containerheader {
+    border: 2px solid blue;
+    height: 664px;
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .containertraditionr {
+    border: 2px solid red;
+    height: 2234px;
+    width: 320px;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .containertraditionr {
+    border: 2px solid green;
+    width: 768px;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .containertraditionr {
+    border: 2px solid blue;
+    height: 2040px;
+    width: 1200px;
+    margin-top: 60px;
+  }
+}
+.tarjeta_button {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  width: 75.103px;
+  height: 28px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 186%;
+  /* 29.76px */
+  letter-spacing: 0.64px;
+  border-radius: 6px;
+  background: #F0D1A5;
+  text-align: center;
+}
+
+.tarjeta_button--2 {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  width: 75.103px;
+  height: 28px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 186%;
+  /* 29.76px */
+  letter-spacing: 0.64px;
+  border-radius: 6px;
+  background: #C2E297;
+}
+
+@media screen and (max-width: 320px) {
+  .tarjeta_button {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 22.32px */
+    letter-spacing: 0.48px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .tarjeta_button--2 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 22.32px */
+    letter-spacing: 0.48px;
+  }
+}
+@media screen and ((max-width: 768px) and (min-width: 321px)) {
+  .tarjeta_button {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 22.32px */
+    letter-spacing: 0.48px;
+  }
+}
+@media screen and ((max-width: 768px) and (min-width: 321px)) {
+  .tarjeta_button--2 {
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 186%;
+    /* 29.76px */
+    letter-spacing: 0.64px;
+  }
+}
+.cont {
+  display: flex;
+  gap: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 769px) {
+  .background {
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container-text {
+    height: 100px;
+    width: 320px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .container-text {
+    height: 200px;
+    width: 768px;
+    text-align: center;
+  }
+  .container_subtitle {
+    font-size: 26px;
+  }
+  .container_product {
+    font-size: 48px;
+    letter-spacing: 1.92px;
+    position: relative;
+    bottom: 50px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .container-text {
+    height: 200px;
+    width: 1200px;
+    text-align: center;
+  }
+  .container_subtitle {
+    font-size: 30px;
+    letter-spacing: 1.2px;
+  }
+  .container_product {
+    font-size: 58px;
+    position: relative;
+    bottom: 60px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container_adaptable {
+    height: 1700px;
+    width: 320px;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .container_adaptable {
+    width: 768px;
+    margin-top: 60px;
+    position: relative;
+    left: 20px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .container_adaptable {
+    width: 1200px;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .adaptable {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 320px;
+    margin-top: 160px;
+    gap: 130px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .adaptable {
+    display: flex;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .adaptable {
+    display: flex;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container_adaptable--tarjeta {
+    display: flex;
+    flex-direction: column;
+    height: 1800px;
+    width: 320px;
+    margin-top: 60px;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .container_adaptable--tarjeta {
+    display: flex;
+    gap: 16px;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .container_adaptable--tarjeta {
+    display: flex;
+    gap: 32px;
+    height: 600px;
+    width: 1200px;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .separacion {
+    display: flex;
+    gap: 130px;
+    position: relative;
+    left: 20px;
+    flex-direction: column;
+  }
+}
+@media screen and ((max-width: 768px) and (min-width: 321px)) {
+  .cont_img-1, .cont_img-2, .cont_img-3 {
+    width: 224px;
+    height: 473px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 769px) {
+  .cont_img-1, .cont_img-2, .cont_img-3 {
+    width: 368px;
+    height: 535px;
+    text-align: center;
+  }
+  .cont-img_3--text {
+    position: relative;
+    bottom: 200px;
+  }
+}
+.background {
+  background-color: #FFF;
+  width: 1250px;
+}
+
+.background_2 {
+  background-color: #FFF5F6;
+  width: 1250px;
+}
+
+@media screen and (max-width: 320px) {
+  .background_2 {
+    height: 1600px;
+    width: 320px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .background_2 {
+    height: 700px;
+    width: 768px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .background_2 {
+    height: 600px;
+    width: 1250px;
+  }
+}
+.dimension {
+  width: 216px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .tarjeta {
+    width: 224px;
+    height: 528px;
+  }
+  .dimension {
+    width: 160px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .tarjeta {
+    width: 368px;
+    height: 538px;
+  }
+  .sub-tarjeta {
+    left: 40px;
+  }
+  .dimension {
+    width: 288px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .images-helado {
+    width: 280px;
+    height: 280px;
+    text-align: center;
+  }
+}
+@media screen and ((max-width: 768px) and (min-width: 321px)) {
+  .images-helado {
+    width: 224px;
+    height: 224px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 769px) {
+  .images-helado {
+    width: 368px;
+    height: 394px;
+    position: relative;
+    bottom: 200px;
+  }
+}
+.tarjeta_text {
+  color: #907E82;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 166%;
+  /* 23.24px */
+  letter-spacing: 0.56px;
+}
+
+.tarjeta {
+  border-radius: 24px;
+  background: #FFF;
+  box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
+  width: 368px;
+  height: 538px;
+  position: relative;
+  left: 20px;
+}
+
+.sub-tarjeta {
+  position: relative;
+  top: 32px;
+  left: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .tarjeta {
+    font-size: 12px;
+    width: 280px;
+    height: 480px;
+    text-align: start;
+    position: relative;
+  }
+  .button {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 22.32px */
+    letter-spacing: 0.48px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .tarjeta {
+    font-size: 14px;
+    width: 224px;
+    height: 528px;
+  }
+  .dimension {
+    width: 160px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .tarjeta {
+    font-size: 16px;
+    width: 368px;
+    height: 538px;
+  }
+  .sub-tarjeta {
+    left: 40px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .dimension {
+    width: 288px;
+  }
+}
+p {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 186%;
+  /* 26.04px */
+  letter-spacing: 0.56px;
+}
+
+.tarjeta_button--schedule-clock {
+  color: #FFA5BA;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 186%;
+  /* 26.04px */
+}
+
+@media screen and (max-width: 320px) {
+  .tarjeta_button--schedule-clock {
+    color: #FFA5BA;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 22.32px */
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .tarjeta_button--schedule-clock {
+    color: #FFA5BA;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 26.04px */
+  }
+}
+@media screen and (min-width: 769px) {
+  .tarjeta_button--schedule-clock {
+    color: #FFA5BA;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 29.76px */
+  }
+}/*# sourceMappingURL=main.css.map */
