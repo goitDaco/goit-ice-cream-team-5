@@ -1,0 +1,117 @@
+// .button-but {
+//   position: relative;
+//   top: 40px;
+//   left: 40px;
+// }
+
+// .sub-tarjeta{
+//     position: relative;
+//     top: 32px;
+//     left: 40px;
+// }
+.tarjeta_button {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  width: 75.103px;
+  height: 28px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 186%;
+  /* 29.76px */
+  letter-spacing: 0.64px;
+  border-radius: 6px;
+  background: #F0D1A5;
+  text-align: center;
+
+}
+
+.tarjeta_button--2 {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  width: 75.103px;
+  height: 28px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 186%;
+  /* 29.76px */
+  letter-spacing: 0.64px;
+  border-radius: 6px;
+  background: #C2E297;
+}
+
+// ---------------------------butones-adaptados-----------------------------------------------
+// -------------------------butones-adaptados-----------------------------------------------
+
+
+
+@media screen and (max-width: 320px) {
+  .tarjeta_button {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 22.32px */
+    letter-spacing: 0.48px;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 320px) {
+  .tarjeta_button--2 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 22.32px */
+    letter-spacing: 0.48px;
+  }
+
+
+
+
+}
+
+
+// ------------------------table---------------------------------------------
+
+@media screen and ((max-width: 768px) and (min-width: 321px)) {
+  .tarjeta_button {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 22.32px */
+    letter-spacing: 0.48px;
+  }
+
+
+
+
+}
+
+@media screen and ((max-width: 768px) and (min-width: 321px)) {
+  .tarjeta_button--2 {
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 186%;
+    /* 29.76px */
+    letter-spacing: 0.64px;
+  }
+
+
+
+
+}

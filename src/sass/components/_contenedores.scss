@@ -1,0 +1,274 @@
+.cont {
+  display: flex;
+  gap: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 769px) {
+  .background {
+    // border: 2px solid blue;
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container-text {
+    //   border: 2px solid red;
+    height: 100px;
+    width: 320px;
+    text-align: center;
+
+  }
+
+  // .container_subtitle {
+  //   #
+  // }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .container-text {
+    //   border: 2px solid green;
+    height: 200px;
+    width: 768px;
+    text-align: center;
+  }
+
+  .container_subtitle {
+    font-size: 26px;
+  }
+
+  .container_product {
+    font-size: 48px;
+    letter-spacing: 1.92px;
+    position: relative;
+    bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container-text {
+    //   border: 2px solid blue;
+    height: 200px;
+    width: 1200px;
+    text-align: center;
+  }
+
+  .container_subtitle {
+    font-size: 30px;
+    letter-spacing: 1.2px;
+  }
+
+  .container_product {
+    font-size: 58px;
+    position: relative;
+    bottom: 60px;
+  }
+}
+
+
+
+@media screen and (max-width: 320px) {
+  .container_adaptable {
+    // border: 2px solid red;
+    height: 1700px;
+    width: 320px;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .container_adaptable {
+    // border: 2px solid green;
+
+    width: 768px;
+    margin-top: 60px;
+    position: relative;
+    left: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container_adaptable {
+    // border: 2px solid blue;
+    width: 1200px;
+    margin-top: 60px;
+  }
+}
+
+
+// ---------------------------container-modidied--------------------
+@media screen and (max-width: 320px) {
+  .adaptable {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 320px;
+    margin-top: 160px;
+    gap: 130px;
+
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .adaptable {
+    display: flex;
+    // border: 2px solid green;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .adaptable {
+    // border: 2px solid blue;
+    display: flex;
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container_adaptable--tarjeta {
+    display: flex;
+    flex-direction: column;
+    // border: 2px solid red;
+    height: 1800px;
+    width: 320px;
+    margin-top: 60px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .container_adaptable--tarjeta {
+    display: flex;
+    gap: 16px;
+    // border: 2px solid green;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container_adaptable--tarjeta {
+    display: flex;
+    gap: 32px;
+    // border: 2px solid blue;
+    height: 600px;
+    width: 1200px;
+    margin-top: 60px;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) {
+  .separacion {
+    display: flex;
+    gap: 130px;
+    position: relative;
+    left: 20px;
+    flex-direction: column;
+    // margin-top: 32px;
+  }
+}
+
+// @media screen and (min-width: 769px) {
+//   .adaptable {
+//     display: flex;
+//     gap: 40px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     flex-direction: row;
+//   }
+// }
+
+// @media screen and (max-width: 320px) {
+//     .cont {
+//       display: flex;
+//       gap: 30px;
+//       padding-left: 15px;
+//       padding-right: 15px;
+//       margin-left: auto;
+//       margin-right: auto;
+//       flex-direction: row;
+//     }
+// }
+
+// --------------------phone----------------------------------
+
+// @media screen and ((max-width: 768px) and (min-width: 321px)) {
+//   .images-helado {
+//     width: 280px;
+//     height: 280px;
+
+//   }
+
+
+// }
+
+
+// --------------------table----------------------------------
+
+@media screen and ((max-width: 768px) and (min-width: 321px)) {
+  .cont_img-1 {
+    width: 224px;
+    height: 473px;
+    text-align: center
+  }
+
+
+}
+
+.cont_img-2 {
+  @extend .cont_img-1;
+}
+
+.cont_img-3 {
+  @extend .cont_img-2;
+}
+
+// ----------------------------computer-----------------------------------
+@media screen and (min-width: 769px) {
+  .cont_img-1 {
+    width: 368px;
+    height: 535px;
+    text-align: center
+  }
+
+  .cont-img_3--text {
+    position: relative;
+    bottom: 200px;
+  }
+}
+
+.cont_img-2 {
+  @extend .cont_img-1;
+}
+
+.cont_img-3 {
+  @extend .cont_img-2;
+}
+
+// -----------------------adaptar-imagenes----------------------------------------------
+// // ----------------------------computer-----------------------------------
+// @media screen and (min-width: 769px) {
+//   .images-helado {
+//     width: 368px;
+//     height: 394px;
+//     // border: 2px solid red;
+//     position: relative;
+//     bottom: 200px;
+//   }
+
+
+// }

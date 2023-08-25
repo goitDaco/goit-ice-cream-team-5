@@ -1,0 +1,74 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+.container_subtitle {
+    color: #FFA5BA;
+    font-family: Titan One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.container_product {
+    color: #D41443;
+    font-family: Titan One;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+.cont_img-1 {
+
+    width: 224px;
+    height: 473px;
+    background: #FFB8CA;
+    border-radius: 24px;
+}
+
+.cont_img-2 {
+    width: 224px;
+    height: 473px;
+    background: #F0D1A5;
+    border-radius: 24px;
+}
+
+.cont_img-3 {
+    width: 224px;
+    height: 473px;
+    background: #C2E297;
+    border-radius: 24px;
+}
+
+
+.text {
+    /* position: relative;
+    bottom: 100px; */
+    color: #FFF;
+    text-align: center;
+    font-family: Titan One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+
+
+
+.cont-img_3--text-1 {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 176%;
+    /* 24.64px */
+    letter-spacing: 0.56px;
+}

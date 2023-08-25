@@ -1,0 +1,32 @@
+.dimension {
+    width: 216px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+    .tarjeta {
+
+        // border: 2px solid green;
+        width: 224px;
+        height: 528px;
+    }
+
+    .dimension {
+        width: 160px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .tarjeta {
+        // border: 2px solid blue;
+        width: 368px;
+        height: 538px;
+    }
+
+    .sub-tarjeta {
+        left: 40px;
+    }
+
+    .dimension {
+        width: 288px;
+    }
+}

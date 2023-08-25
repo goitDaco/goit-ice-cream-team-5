@@ -1,0 +1,58 @@
+p {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 26.04px */
+    letter-spacing: 0.56px;
+}
+
+
+.tarjeta_button--schedule-clock {
+    color: #FFA5BA;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 26.04px */
+}
+
+
+@media screen and (max-width: 320px) {
+    .tarjeta_button--schedule-clock {
+        color: #FFA5BA;
+        font-family: DM Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 186%;
+        /* 22.32px */
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+    .tarjeta_button--schedule-clock {
+        color: #FFA5BA;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 186%;
+        /* 26.04px */
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .tarjeta_button--schedule-clock {
+        color: #FFA5BA;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 186%;
+        /* 29.76px */
+    }
+}

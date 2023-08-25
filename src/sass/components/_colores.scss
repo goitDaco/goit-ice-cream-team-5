@@ -1,0 +1,40 @@
+.background {
+    background-color: #FFF;
+    width: 1250px;
+
+
+}
+
+.background_2 {
+    background-color: #FFF5F6;
+    width: 1250px;
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .background_2 {
+        //   border: 2px solid red;
+        height: 1600px;
+        width: 320px;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+    .background_2 {
+        //   border: 2px solid green;
+        height: 700px;
+        width: 768px;
+
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .background_2 {
+        //   border: 2px solid blue;
+        height: 600px;
+        width: 1250px;
+    }
+}
