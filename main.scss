@@ -34,6 +34,8 @@
 @import './src/sass/components/botones';
 
 
+@import './src/sass/components/images';
+
 
 @import './src/sass/components/contenedores';
 
@@ -43,10 +45,6 @@
 
 
 @import './src/sass/components/svgs';
-
-
-
-@import './src/sass/components/images';
 
 
 
@@ -69,3 +67,11 @@
 @import './src/sass/utils/tarjeta';
 
 @import './src/sass/utils/text-adapatable';
+
+
+
+// ----------------------------------estilos------------------------
+
+
+
+@import './src/sass/estilos/estilos';

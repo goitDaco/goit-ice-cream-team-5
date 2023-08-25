@@ -253,6 +253,38 @@
     letter-spacing: 0.64px;
   }
 }
+.images-helado {
+  position: relative;
+  bottom: 120px;
+}
+
+.cont-img_3--text {
+  position: relative;
+  bottom: 100px;
+}
+
+@media screen and (min-width: 320px) {
+  .images-helado {
+    width: 280px;
+    height: 280px;
+    text-align: center;
+  }
+}
+@media screen and ((max-width: 768px) and (min-width: 321px)) {
+  .images-helado {
+    width: 224px;
+    height: 224px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 769px) {
+  .images-helado {
+    width: 368px;
+    height: 394px;
+    position: relative;
+    bottom: 200px;
+  }
+}
 .cont {
   display: flex;
   gap: 30px;
@@ -313,7 +345,6 @@
   .container_adaptable {
     height: 1700px;
     width: 320px;
-    margin-top: 60px;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 321px) {
@@ -337,7 +368,7 @@
     height: 100%;
     width: 320px;
     margin-top: 160px;
-    gap: 130px;
+    gap: 120px;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 321px) {
@@ -402,6 +433,7 @@
   .cont-img_3--text {
     position: relative;
     bottom: 200px;
+    text-align: center;
   }
 }
 .background {
@@ -456,28 +488,6 @@
   }
   .dimension {
     width: 288px;
-  }
-}
-@media screen and (min-width: 320px) {
-  .images-helado {
-    width: 280px;
-    height: 280px;
-    text-align: center;
-  }
-}
-@media screen and ((max-width: 768px) and (min-width: 321px)) {
-  .images-helado {
-    width: 224px;
-    height: 224px;
-    text-align: center;
-  }
-}
-@media screen and (min-width: 769px) {
-  .images-helado {
-    width: 368px;
-    height: 394px;
-    position: relative;
-    bottom: 200px;
   }
 }
 .tarjeta_text {
@@ -603,4 +613,41 @@ p {
     line-height: 186%;
     /* 29.76px */
   }
+}
+.subtitle {
+  color: #FFA5BA;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.product {
+  color: #D41443;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.modal-fal {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 32px;
+}
+
+/* seccion de vectores seccion de vectores seccion de vectores  */
+.vector1 {
+  display: block;
+  margin: auto;
 }/*# sourceMappingURL=main.css.map */
